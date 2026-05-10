@@ -1,0 +1,18 @@
+/* W AP TO FIND GROSS SALARY*/
+#include<stdio.h>
+int main()
+{
+int salary ;
+float da, hra,gross_salary;
+clrscr();
+printf("Enter salary");
+scanf("%d",&salary);
+da=salary*0.2 ;  //20% of salary
+printf("\n da=%.2f",da);
+hra=salary*0.4;   //40% of salary
+printf("\n hra=%.2f",hra)  ;
+gross_salary= salary+da+hra;
+printf("\n gross_salary=%.2f",gross_salary);
+getch();
+return 0;
+}
