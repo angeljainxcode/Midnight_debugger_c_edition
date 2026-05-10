@@ -33,5 +33,5 @@ my space for c programs, experiments &amp; growth
 
 
 
-
+I used TurboC for writing the codes
 stay tuned for further updates
