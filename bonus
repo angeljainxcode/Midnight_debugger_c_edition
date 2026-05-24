@@ -1,0 +1,20 @@
+/*Calculation Of Bonus*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int bonus,cy,yoj,yos;
+    printf("Enter the current year ");
+    scanf("%d",&cy);
+
+    printf("\nEnter the year of joining");
+    scanf("%d",&yoj);
+
+    yos=cy-yoj;
+    if(yos>30)
+    {
+        bonus=2500;
+        printf("\nBonus=Rs.%d",bonus);
+    }
+    return 0;
+}
